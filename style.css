@@ -3,12 +3,22 @@
 /* para ajustar el ancho de párrafos */
 @media (min-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 800px;
     }
 }
 :root {
     --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif;
 }
+
+body {
+      background: rgba(229, 226, 226, 1);
+            }
+
+             header{
+                background:transparent url('img/duotone2.png') top center no-repeat;
+                background-size:100% auto;
+                padding-top:34vw;
+            }
 
 h1,
 h2,
@@ -19,6 +29,29 @@ h6 {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
 }
+
+h1 {
+                font-size: calc(2rem + 1.5vw);
+                color: #8c4250;
+            }
+
+
+.social-media {
+    display: flex;
+    justify-content: center; /* Centra los iconos horizontalmente */
+    gap: 15px; /* Espaciado entre los iconos */
+}
+
+.social-media a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #333; /* Color del icono */
+    font-size: 60px; /* Tamaño del icono */
+}
+
+.social-media a:hover {
+    color: #8c4250; /* Color al pasar el ratón (puedes cambiarlo) */
+}
+
 
 /* para ajustar algo que queda lost in translation */
 em,
