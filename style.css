@@ -61,10 +61,10 @@ h1 {
 }
 
 .texto-responsivo {
-    margin-top: 5%;
+    margin-top: 10vh;
     margin-right: 5%; 
     margin-left: 5%; 
-    font-size: 4rem; 
+    font-size: 1.2rem; 
     line-height: 1.5; 
 }
 
