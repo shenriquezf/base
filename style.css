@@ -60,6 +60,14 @@ h1 {
     margin: 70px 0
 }
 
+.texto-responsivo {
+    margin-top: 10vh;
+    margin-right: 5%; 
+    margin-left: 5%; 
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+}
+
 /* para ajustar algo que queda lost in translation */
 em,
 cite {
